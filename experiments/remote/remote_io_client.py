@@ -10,7 +10,7 @@ from datetime import datetime
 from config.settings import SERVER_PORT, DEFAULT_ITERATIONS
 
 # Server settings (another Raspberry Pi in same network)
-SERVER_HOST = "10.0.0.1"
+SERVER_HOST = "192.168.1.3"
 
 
 def run_experiment(server_url, filepath, iterations=10):
